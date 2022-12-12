@@ -1,0 +1,125 @@
+/* ======================================= Banner =====================================*/
+.banner img{
+  width: 100%;
+}
+
+.image{
+  display: none;
+}
+
+.banner{
+  background-color: #e7d9ea;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.dot{
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.bullet{
+  text-align: center;
+  background-color:#e7d9ea;
+}
+
+.active{
+  background-color: black;
+}
+
+.slider{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade{
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* ======================================= New Arrival, Best Seller =====================================*/
+
+.title h1{
+  text-align: center; 
+  background-color: #f9b700;
+  font-family: "arial black", arial;
+  font-size:x-large;
+  color: #251656;
+  font-size: 2vw;
+}
+
+.title h2{
+  font-size: large;
+  font-family: "arial black", arial;
+  margin-bottom: 10px;
+  color: #000;
+  font-size: 1.3vw;
+}
+
+hr{
+  background-color: #251656;
+  border-style: none;
+  border-top: 1px solid;
+  border-color: #251656;
+  border-width: 10px;
+  width: 100%;
+}
+
+#new-arrival{
+  background-color: #e7d9ea;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 15px 40px 15px;
+  justify-content: space-between;
+}
+
+#news-product{
+  background-color: #e7d9ea;
+  display: flex;
+  flex-direction: row;
+  padding: 40px 15px 40px 15px;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1080px){
+    .title h1{
+        font-size: 3vw;
+    }
+    .title h2{
+        font-size: 1.4vw;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+  .title h1{
+    font-size: 3vw;
+  }
+
+  .title h2{
+    font-size: 1.8vw;
+  }
+}
+
+@media only screen and (max-width: 375px){
+  .title h1{
+    font-size: 3vw;
+  }
+
+  .title h2{
+    font-size: 1.8vw;
+  }
+}

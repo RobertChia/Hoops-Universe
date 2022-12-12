@@ -1,0 +1,49 @@
+#FAQ{
+    background-color: #e7d9ea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+#title{
+    width: 70vw;
+    background-color: #f9b700;
+    box-shadow: 5px 8px #888888;
+    border-radius: 3%;
+
+}
+
+#title h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "arial black", arial;
+    color: #251656;
+}
+
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title-FAQ{
+    font-family: "arial black", arial;
+    padding: 10px;
+    color: #251656;
+}
+
+.answer{
+    font-family: "monaco", monospace;
+    color: #251656;
+}
+
+hr{
+    background-color: #251656;
+    border-style: none;
+    border-top: 1px solid;
+    border-color: #251656;
+    border-width: 10px;
+    width: 100%;
+}

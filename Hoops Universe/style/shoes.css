@@ -1,0 +1,93 @@
+#ShoesBanner img{
+    width: 100%;
+}
+
+#ShoesBanner{
+  background-color: #251656;
+}
+
+hr{
+  background-color: #251656;
+  border-style: none;
+  border-top: 1px solid;
+  border-color: #251656;
+  border-width: 10px;
+  width: 100%;  
+}
+
+.ShoesList h1{
+  padding-left: 3.5%;
+  background-color: #f9b700;
+  color:#251656;
+}
+
+#Nike{
+  background-color: #e7d9ea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px 15px 40px 15px;
+}
+
+#Adidas{
+  background-color: #e7d9ea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px 15px 40px 15px;
+}
+
+#Jordan{
+  background-color: #e7d9ea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px 15px 40px 15px;
+}
+
+#UA{
+  background-color: #e7d9ea;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px 15px 40px 15px;
+}
+
+
+h1{
+  font-family: "arial black", arial;
+  font-size: 2vw;
+}
+
+h2{
+  font-family: "arial black", arial;
+  font-size: 1.5vw;
+}
+
+h3{
+  font-family: "arial black", arial;
+  font-size: 1.4vw;
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 3vw;
+    }
+
+    h2{
+        font-size: 1.8vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    h1{
+        font-size: 3vw;
+    }
+
+    h2{
+        font-size: 1.8vw;
+    }
+}
